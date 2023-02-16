@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,400;0,500;1,500&display=swap');
+@import url(../css/home.css);
+@import url(../css/header.css);
+@import url(../css/about.css);
+
+:root{
+    
+   
+    --azul: #22D4FD;
+    --branco: #F6F6F6;
+    --fonte-primaria: 'Krona One';
+    --fonte-secundaria: 'Montserrat';
+    --preto: #000000;
+    --preto-secundario: #272727;
+    
+}
+body{
+    
+   /*  height: 100vh; */
+    box-sizing: border-box; 
+    color: var(--branco);
+    box-sizing: border-box;    
+    background: var(--preto);
+    
+}

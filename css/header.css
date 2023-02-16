@@ -1,0 +1,26 @@
+.header__cabecalho{
+    padding: 2% 0 0 15%;
+
+
+}
+.a__cabecalho{
+    font-family: var(--fonte-secundaria);
+    color:var(--azul);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.nav__cabecalho{
+    display: flex;
+    gap: 4rem;
+
+}
+@media screen and (max-width: 1675px) {
+    .header__cabecalho{
+        padding: 10% 0 0 0;
+    }
+    .nav__cabecalho{
+        justify-content: center;
+    }
+    
+} 
